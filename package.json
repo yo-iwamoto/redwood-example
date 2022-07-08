@@ -1,5 +1,10 @@
 {
   "private": true,
+  "scripts": {
+    "dev": "rw dev",
+    "build": "rw build",
+    "console": "rw console"
+  },
   "workspaces": {
     "packages": [
       "api",
@@ -8,7 +13,8 @@
     ]
   },
   "devDependencies": {
-    "@redwoodjs/core": "2.0.0"
+    "@redwoodjs/core": "2.0.0",
+    "prettier": "^2.7.1"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
